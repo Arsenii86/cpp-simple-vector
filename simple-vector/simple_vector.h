@@ -93,7 +93,7 @@ public:
             ArrayPtr<Type> arr3(size);
             arr1.swap(arr3);
             for (size_t i=0;i<size;i++){
-                arr1[i]=std::move(value);
+                arr1[i]=value;
                 }
             }          
     }
